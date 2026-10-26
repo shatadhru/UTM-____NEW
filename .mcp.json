@@ -6,7 +6,16 @@
         "shadcn@latest",
         "mcp"
       ]
+    },
+    "coolify": {
+      "command": "node",
+      "args": [
+        "scripts/coolify-mcp.cjs"
+      ],
+      "env": {
+        "COOLIFY_ENDPOINT": "http://31.97.190.84:8000/mcp",
+        "COOLIFY_TOKEN": "3|mzkMWHKasqt0ufAakKKdG6kE6tKStNeNkI2Z8DIo37187548"
+      }
     }
   }
 }
-

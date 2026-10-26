@@ -1,4 +1,6 @@
 import React from 'react'
+
+export const dynamic = 'force-dynamic'
 import Header from '@/components/basic/header'
 import { Footer } from '@/components/basic/footer'
 import Hero from '@/components/Home/Hero'
