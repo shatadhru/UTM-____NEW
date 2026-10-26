@@ -27,6 +27,23 @@ services:
       CLOUDINARY_API_SECRET: ${CLOUDINARY_API_SECRET:-}
       PAYLOAD_SECRET: ${PAYLOAD_SECRET:-local-development-payload-secret-change-me}
       BETTER_AUTH_SECRET: ${BETTER_AUTH_SECRET:-local-development-auth-secret-change-me}
+      SMTP_HOST: ${SMTP_HOST:-}
+      SMTP_PORT: ${SMTP_PORT:-465}
+      SMTP_SECURE: ${SMTP_SECURE:-true}
+      SMTP_USER: ${SMTP_USER:-}
+      SMTP_PASS: ${SMTP_PASS:-}
+      SMTP_FROM: ${SMTP_FROM:-}
+      GOOGLE_CLIENT_ID: ${GOOGLE_CLIENT_ID:-}
+      GOOGLE_CLIENT_SECRET: ${GOOGLE_CLIENT_SECRET:-}
+      UPSTASH_REDIS_REST_URL: ${UPSTASH_REDIS_REST_URL:-}
+      UPSTASH_REDIS_REST_TOKEN: ${UPSTASH_REDIS_REST_TOKEN:-}
+      BKASH_USERNAME: ${BKASH_USERNAME:-}
+      BKASH_PASSWORD: ${BKASH_PASSWORD:-}
+      BKASH_APP_KEY: ${BKASH_APP_KEY:-}
+      BKASH_APP_SECRET: ${BKASH_APP_SECRET:-}
+      BKASH_BASE_URL: ${BKASH_BASE_URL:-}
+      BKASH_CALLBACK_URL: ${BKASH_CALLBACK_URL:-}
+      SMS_NET_BD_API_KEY: ${SMS_NET_BD_API_KEY:-}
     depends_on:
       mongo:
         condition: service_healthy
